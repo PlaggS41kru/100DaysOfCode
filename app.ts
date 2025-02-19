@@ -88,10 +88,18 @@ console.log(veri)
 //14 - Criar um array com 5 nomes e exibi-los um por um no console.
 let arr = ["João", " Roberta" , "Ivan" , "José", "Maria" ]
 
-setTimeout(function(arr)) {
-    console.log
-}, 2000
-
+setTimeout(() => {
+    console.log("João");
+    }, 3000);
+    setTimeout(() => {
+    console.log("Roberta");
+    }, 2000);
+    setTimeout(() => {
+    console.log("Ivan");
+    }, 1000);
+    setTimeout(() => {
+    console.log("José");
+    }, 500);
 //15 - Criar uma função que conta quantas vezes uma letra aparece em uma palavra.
 
 
